@@ -1,0 +1,269 @@
+@media only screen and (max-width :922px) {
+    #cari p {
+        font-size: 18px;
+        width: 90%;
+    }
+
+    .input-cari .button-secondary {
+        width: 120px;
+    }
+
+    .button-fitur {
+        width: 100%;
+    }
+
+    #kontak h3 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .button-primary {
+        display: block;
+        width: 100%;
+    }
+
+    .button-secondary {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width : 576px) {
+    .hero-tagline h1 {
+        line-height: 52px;
+    }
+
+    .image-hero {
+        height: 75%;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    .sub-title {
+        font-size: 16px;
+    }
+
+    .card {
+        margin: 15px 0;
+    }
+
+    #cari h2 {
+        font-size: 42px;
+    }
+
+    .input-cari .button-secondary {
+        width: 50%;
+        height: 60px;
+    }
+
+    .input-cari .button-primary {
+        height: 60px;
+        width: 30%;
+        font-size: 20px;
+    }
+
+    .card-contact {
+        padding: 45px 15px ;
+        height: auto;
+    }
+    
+
+}
+
+@media only screen and  (max-width : 300px) {
+    .hero-tagline h1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .hero-tagline p {
+        font-size: .8rem;
+        line-height: 20px;
+    }
+
+    .image-hero {
+        height: 50%;
+    }
+
+    #cari h2 {
+        font-size: 30px;
+    }
+
+    #cari p {
+        font-size: 16px;
+        width: 100%;
+    }
+}
+/* 
+@media only screen and (min-width : 320px) {
+    .hero-tagline h1 {
+        color: black;
+    }
+} */
+
+@media (max-width: 768px) {
+    #modul {
+        padding: 80px 0; /* Sesuaikan padding-top untuk layar kecil */
+    }
+
+    .module-card h3 {
+        font-size: 20px;
+    }
+
+    .module-card p {
+        font-size: 14px;
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #visi-misi {
+        padding: 40px 0; /* Mengurangi padding di perangkat kecil */
+    }
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    .info-box {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px; /* Padding disesuaikan untuk tampilan kecil */
+    }
+
+    .info-img {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .info-content {
+        width: 100%;
+    }
+}
+
+
+/* Responsif untuk layar kecil (Mobile) */
+@media (max-width: 768px) {
+    /* Ketika layar kecil, tampilkan ketua dan anggota dalam satu kolom */
+    .team-grid {
+        flex-direction: column; /* Ubah ke kolom */
+        align-items: center; /* Pusatkan anggota tim */
+    }
+
+    .team-leader {
+        max-width: 250px; /* Atur lebar ketua agar tidak terlalu besar */
+    }
+
+    .team-member {
+        max-width: 90%; /* Anggota tim menyesuaikan lebar */
+        margin-bottom: 30px; /* Beri jarak antar anggota */
+    }
+}
+
+/* Responsif untuk layar sangat kecil (Mobile portrait) */
+@media (max-width: 480px) {
+    #team-section h2 {
+        font-size: 2rem; /* Ukuran font judul lebih kecil */
+    }
+
+    .team-leader {
+        max-width: 220px; /* Ukuran ketua lebih kecil pada layar kecil */
+    }
+
+    .team-title {
+        font-size: 1rem; /* Ukuran nama lebih kecil */
+    }
+
+    .team-role {
+        font-size: 0.9rem; /* Ukuran jabatan lebih kecil */
+    }
+}
+
+/* Responsivitas */
+@media (max-width: 768px) {
+    #fasilitas h1 {
+        font-size: 2rem; /* Ukuran judul lebih kecil */
+    }
+
+    .fasilitas-container {
+        gap: 20px; /* Jarak antar kotak lebih kecil */
+    }
+
+    .fasilitas-card {
+        padding: 20px; /* Padding lebih kecil */
+    }
+
+    .fasilitas-card img {
+        max-height: 140px; /* Gambar lebih kecil */
+    }
+
+    .fasilitas-card h3 {
+        font-size: 1.3rem; /* Judul lebih kecil */
+    }
+
+    .fasilitas-card p {
+        font-size: 0.9rem; /* Deskripsi lebih kecil */
+    }
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    .card-fitur {
+        width: calc(50% - 16px); /* 2 kartu per baris (tablet) */
+    }
+}
+
+@media (max-width: 576px) {
+    .card-fitur {
+        width: calc(100% - 16px); /* 1 kartu per baris (mobile) */
+    }
+}
+
+@media (max-width: 1200px) {
+    #virtual-tour h2 {
+        font-size: 2rem; /* Mengurangi ukuran font untuk layar lebih kecil */
+    }
+
+    #virtual-tour .sub-title {
+        font-size: 1.1rem;
+    }
+
+    #virtual-tour .btn-primary {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    #virtual-tour h2 {
+        font-size: 1.7rem; /* Lebih kecil lagi pada tablet */
+    }
+
+    #virtual-tour .sub-title {
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+
+    #virtual-tour .btn-primary {
+        font-size: 1rem;
+        padding: 12px 24px;
+    }
+}
+
+@media (max-width: 576px) {
+    #virtual-tour h2 {
+        font-size: 1.5rem; /* Ukuran font untuk ponsel */
+    }
+
+    #virtual-tour .sub-title {
+        font-size: 0.9rem;
+        margin-bottom: 20px;
+    }
+
+    #virtual-tour .btn-primary {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
